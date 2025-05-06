@@ -30,11 +30,11 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
  1. **Clone the repository:**
     ```bash
     git clone https://github.com/alokmht07/KIRANAWALA.git
-    cd Grocery-Store-MERN
+    cd KIRANAWALA
     ```
  2. **Install dependencies:**
     ```bash
-    cd frontend
+    cd client
     yarn install
     # or
     npm install
@@ -49,7 +49,7 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
     
  4. **Start the Backend Server:**
     ```bash
-    cd backend
+    cd server
     yarn install
     # or
     npm install
