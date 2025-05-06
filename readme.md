@@ -17,21 +17,16 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 - 📄 **Order Details**: View order history and details.
 - 👨‍💼 **Admin Functionality**: Special features for administrators to manage products and users.
 
-###  Features - 
+## Technologies
 
-- **User-Friendly Interface:** Browse and shop groceries with ease.
-- **Search and Filter:** Quickly find items based on categories or search keywords.
-- **Register & Login Functionality** (MongoDB).
-<br/>
-
-### Technologies Used - 
-
-- **Frontend:** React, React Redux, JavaScript, CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **State Management:** Redux
-
-<br/>
+- 📦 **MongoDB**: A NoSQL database for storing data.
+- ⚙️ **Express.js**: A web application framework for Node.js.
+- ⚛️ **React**: A JavaScript library for building user interfaces.
+- 🚀 **Node.js**: A JavaScript runtime for server-side development.
+- 🔑 **JWT**: JSON Web Tokens for user authentication.
+- 🔒 **bcrypt**: A library for hashing user passwords.
+- 💌 **Nodemailer**: A library for sending email.
+- ☁️ **Cloudinary**: A cloud-based image and video management service.
 
 ## 🚀 Getting Started
 
@@ -89,3 +84,5 @@ We welcome contributions to the Food Copilot project! Feel free to report bugs, 
 
 ### Give a Star ⭐
 If you find this project helpful or interesting, please consider giving it a star on GitHub! 
+
+### Happy coding! 👩‍💻👨‍💻
