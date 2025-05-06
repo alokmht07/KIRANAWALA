@@ -17,7 +17,7 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 - 📄 **Order Details**: View order history and details.
 - 👨‍💼 **Admin Functionality**: Special features for administrators to manage products and users.
 
-## Technologies
+## 🚀 Technologies
 
 - 📦 **MongoDB**: A NoSQL database for storing data.
 - ⚙️ **Express.js**: A web application framework for Node.js.
@@ -28,7 +28,7 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 - 💌 **Resend**: A library for sending email.
 - ☁️ **Cloudinary**: A cloud-based image and video management service.
 
-## Configuration
+## ⚙️ Configuration
 
 1. Create a `.env` file in the `server` directory with the following environment variables:
 
@@ -97,7 +97,7 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 
 <br/>
 
-## Contribution Guide
+## 📝 Contribution Guide
 We welcome contributions to the Food Copilot project! Feel free to report bugs, suggest features, or submit pull requests. Follow these steps to get started:
 
  1. Fork the Repository - Navigate to the Food Copilot Repository, click on the Fork button to create a copy of the repository in your GitHub account.
