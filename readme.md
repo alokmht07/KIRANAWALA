@@ -30,7 +30,7 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 
 ## Configuration
 
-1. Create a `.env` file in the `root` directory with the following environment variables:
+1. Create a `.env` file in the `server` directory with the following environment variables:
 
    ```env
    FRONTEND_URL = frontend_host_url
@@ -45,6 +45,13 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
    CLODINARY_API_SECRET_KEY = your_cloudinary_api_secret
 
    STRIPE_SECRET_KEY =  your_stripe_payment_secret_key
+   ```
+
+2. Create a `.env` file in the `client` directory with the following environment variables:
+
+   ```env
+   BACKEND_URL = backend_host_url
+   STRIPE_PUBLIC_KEY =  your_stripe_payment_public_key
    ```
 
 ## 🚀 Getting Started
