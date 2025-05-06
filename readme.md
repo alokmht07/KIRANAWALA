@@ -25,8 +25,27 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
 - 🚀 **Node.js**: A JavaScript runtime for server-side development.
 - 🔑 **JWT**: JSON Web Tokens for user authentication.
 - 🔒 **bcrypt**: A library for hashing user passwords.
-- 💌 **Nodemailer**: A library for sending email.
+- 💌 **Resend**: A library for sending email.
 - ☁️ **Cloudinary**: A cloud-based image and video management service.
+
+## Configuration
+
+1. Create a `.env` file in the `root` directory with the following environment variables:
+
+   ```env
+   FRONTEND_URL = frontend_host_url
+   MONGODB_URI = your_mongodb_uri
+   RESEND_API = resend_email_api_key
+
+   SECRET_KEY_ACCESS_TOKEN = jwt_secret_key
+   SECRET_KEY_REFRESH_TOKEN = jwt_refresh_secret_key
+
+   CLODINARY_CLOUD_NAME = your_cloudinary_cloud_name
+   CLODINARY_API_KEY = your_cloudinary_api_key
+   CLODINARY_API_SECRET_KEY = your_cloudinary_api_secret
+
+   STRIPE_SECRET_KEY =  your_stripe_payment_secret_key
+   ```
 
 ## 🚀 Getting Started
 
@@ -67,6 +86,8 @@ An e-commerce platform for buying grocery items, offering users a seamless onlin
     # or
     npm run dev
 
+5. Access the application in your web browser at `http://localhost:5173`.
+
 <br/>
 
 ## Contribution Guide
@@ -81,8 +102,5 @@ We welcome contributions to the Food Copilot project! Feel free to report bugs, 
  5. Push your changes to your forked repository.
  6. Create a pull request with your changes and details.
 
-
 ### Give a Star ⭐
 If you find this project helpful or interesting, please consider giving it a star on GitHub! 
-
-### Happy coding! 👩‍💻👨‍💻
